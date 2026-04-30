@@ -1,0 +1,48 @@
+name: "Sales Profile"
+description: "Müşteri ve satış süreçleri için hazır ajan grubu"
+
+agents:
+  prospecting:
+    - id: sales-outbound-strategist
+      name: "Outbound Strategist"
+      file: "sales/sales-outbound-strategist.md"
+      role: "Signal-based prospecting, multi-channel sequences"
+
+    - id: sales-outreach
+      name: "Sales Outreach"
+      file: "specialized/sales-outreach.md"
+      role: "Cold prospecting, multi-touch cadences"
+
+  qualification:
+    - id: sales-discovery-coach
+      name: "Discovery Coach"
+      file: "sales/sales-discovery-coach.md"
+      role: "SPIN, Gap Selling, question design"
+
+    - id: sales-deal-strategist
+      name: "Deal Strategist"
+      file: "sales/sales-deal-strategist.md"
+      role: "MEDDPICC qualification, win planning"
+
+  closing:
+    - id: sales-proposal-strategist
+      name: "Proposal Strategist"
+      file: "sales/sales-proposal-strategist.md"
+      role: "RFP response, win themes, narrative"
+
+    - id: sales-sales-engineer
+      name: "Sales Engineer"
+      file: "sales/sales-sales-engineer.md"
+      role: "Technical demos, POC scoping"
+
+  support:
+    - id: customer-service
+      name: "Customer Service"
+      file: "specialized/customer-service.md"
+      role: "Omnichannel support, complaint handling"
+
+workflow_tags:
+  - sales
+  - outbound
+  - proposal
+  - customer-relations

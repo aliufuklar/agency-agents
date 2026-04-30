@@ -1,0 +1,48 @@
+name: "General Profile"
+description: "Genel işler için hazır ajan grubu"
+
+agents:
+  management:
+    - id: project-shepherd
+      name: "Project Shepherd"
+      file: "project-management/project-management-project-shepherd.md"
+      role: "Cross-functional coordination, timeline management"
+
+    - id: sprint-prioritizer
+      name: "Sprint Prioritizer"
+      file: "product/product-sprint-prioritizer.md"
+      role: "Agile planning, feature prioritization"
+
+  content:
+    - id: content-creator
+      name: "Content Creator"
+      file: "marketing/marketing-content-creator.md"
+      role: "Multi-platform content, editorial calendars"
+
+    - id: linkedin-creator
+      name: "LinkedIn Content Creator"
+      file: "marketing/marketing-linkedin-content-creator.md"
+      role: "Personal branding, thought leadership"
+
+  support:
+    - id: support-responder
+      name: "Support Responder"
+      file: "support/support-support-responder.md"
+      role: "Customer service, issue resolution"
+
+    - id: analytics-reporter
+      name: "Analytics Reporter"
+      file: "support/support-analytics-reporter.md"
+      role: "Data analysis, dashboards, insights"
+
+  orchestration:
+    - id: agents-orchestrator
+      name: "Agents Orchestrator"
+      file: "specialized/agents-orchestrator.md"
+      role: "Multi-agent coordination, workflow management"
+
+workflow_tags:
+  - general
+  - operations
+  - content
+  - support

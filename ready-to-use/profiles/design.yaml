@@ -1,0 +1,48 @@
+name: "Design Profile"
+description: "Tasarım projeleri için hazır ajan grubu"
+
+agents:
+  visual:
+    - id: design-ui-designer
+      name: "UI Designer"
+      file: "design/design-ui-designer.md"
+      role: "Visual design, component libraries, design systems"
+
+    - id: design-visual-storyteller
+      name: "Visual Storyteller"
+      file: "design/design-visual-storyteller.md"
+      role: "Visual narratives, multimedia content"
+
+  research:
+    - id: design-ux-researcher
+      name: "UX Researcher"
+      file: "design/design-ux-researcher.md"
+      role: "User testing, behavior analysis, research"
+
+    - id: design-ux-architect
+      name: "UX Architect"
+      file: "design/design-ux-architect.md"
+      role: "Technical architecture, CSS systems, implementation"
+
+  brand:
+    - id: design-brand-guardian
+      name: "Brand Guardian"
+      file: "design/design-brand-guardian.md"
+      role: "Brand identity, consistency, positioning"
+
+    - id: design-whimsy-injector
+      name: "Whimsy Injector"
+      file: "design/design-whimsy-injector.md"
+      role: "Personality, delight, playful interactions"
+
+  support:
+    - id: design-inclusive-visuals
+      name: "Inclusive Visuals Specialist"
+      file: "design/design-inclusive-visuals-specialist.md"
+      role: "Representation, bias mitigation, authentic imagery"
+
+workflow_tags:
+  - design
+  - ui
+  - ux
+  - branding

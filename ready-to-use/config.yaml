@@ -1,0 +1,62 @@
+version: "1.0"
+name: "Agency Agents Ready-to-Use"
+description: "Hazır AI ajan altyapısı - işinize göre özelleştirin"
+
+defaults:
+  opencode_dir: "~/.opencode/agents"
+  claude_dir: "~/.claude/agents"
+  cursor_dir: "~/.cursor/agents"
+  
+profiles:
+  web-development:
+    description: "Web geliştirme projeleri için"
+    agents:
+      - engineering/engineering-senior-developer.md
+      - engineering/engineering-frontend-developer.md
+      - engineering/engineering-backend-architect.md
+      - engineering/engineering-ai-engineer.md
+      - design/design-ui-designer.md
+      - design/design-ux-researcher.md
+
+  design:
+    description: "Tasarım projeleri için"
+    agents:
+      - design/design-ui-designer.md
+      - design/design-ux-researcher.md
+      - design/design-ux-architect.md
+      - design/design-brand-guardian.md
+      - design/design-whimsy-injector.md
+
+  sales:
+    description: "Müşteri ve satış süreçleri için"
+    agents:
+      - sales/sales-outbound-strategist.md
+      - sales/sales-proposal-strategist.md
+      - sales/sales-deal-strategist.md
+      - specialized/sales-outreach.md
+      - specialized/customer-service.md
+
+  general:
+    description: "Genel işler için"
+    agents:
+      - project-management/project-management-project-shepherd.md
+      - marketing/marketing-content-creator.md
+      - support/support-support-responder.md
+      - specialized/agents-orchestrator.md
+
+workflows:
+  client-intake:
+    description: "Yeni müşteri onboarding süreci"
+    steps:
+      - sales-outbound-strategist
+      - sales-discovery-coach
+      - sales-proposal-strategist
+      - hr-onboarding
+
+  web-project:
+    description: "Web sitesi geliştirme süreci"
+    steps:
+      - design-ui-designer
+      - engineering-frontend-developer
+      - engineering-backend-architect
+      - testing-reality-checker

@@ -1,0 +1,53 @@
+name: "Web Development Profile"
+description: "Web geliştirme projeleri için hazır ajan grubu"
+
+agents:
+  core:
+    - id: engineering-senior-developer
+      name: "Senior Developer"
+      file: "engineering/engineering-senior-developer.md"
+      role: "Genel yazılım geliştirme, architecture kararları"
+
+    - id: engineering-frontend-developer
+      name: "Frontend Developer"
+      file: "engineering/engineering-frontend-developer.md"
+      role: "React/Vue/Angular, UI implementation, performance"
+
+    - id: engineering-backend-architect
+      name: "Backend Architect"
+      file: "engineering/engineering-backend-architect.md"
+      role: "API design, database architecture, scalability"
+
+    - id: engineering-ai-engineer
+      name: "AI Engineer"
+      file: "engineering/engineering-ai-engineer.md"
+      role: "ML models, AI integration"
+
+  design:
+    - id: design-ui-designer
+      name: "UI Designer"
+      file: "design/design-ui-designer.md"
+      role: "Visual design, component libraries"
+
+    - id: design-ux-researcher
+      name: "UX Researcher"
+      file: "design/design-ux-researcher.md"
+      role: "User testing, behavior analysis"
+
+  quality:
+    - id: testing-reality-checker
+      name: "Reality Checker"
+      file: "testing/testing-reality-checker.md"
+      role: "Quality gates, production readiness"
+
+  project:
+    - id: project-shepherd
+      name: "Project Shepherd"
+      file: "project-management/project-management-project-shepherd.md"
+      role: "Cross-functional coordination, timeline management"
+
+workflow_tags:
+  - web-development
+  - frontend
+  - backend
+  - fullstack
